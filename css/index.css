@@ -314,9 +314,6 @@ footer {
     width: 100%;
   }
 }
-.home .walk .walk-img-phone .img {
-  display: none;
-}
 @media (max-width: 500px) {
   .home .walk .walk-img-phone .img {
     width: 100%;
