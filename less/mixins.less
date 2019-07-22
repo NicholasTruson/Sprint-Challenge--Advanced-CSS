@@ -1,1 +1,32 @@
 // Mixins Here
+
+.btn-format(@color: black, @width:150px, @font:white){
+    display: block;
+    background-color: @color;
+    margin: 0 10px 20px;
+    cursor: pointer;
+    width: @width;
+    height: 45px;
+    font-size: 2rem;
+    border-radius: 10px;
+    color: @font;
+}
+
+.btn-center(){
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.btn-phone(@color: black, @width:100%, @font:white){
+    display: block;
+    background-color: @color;
+    margin: 0 auto;
+    cursor: pointer;
+    width: @width;
+    height: 90px;
+    font-size: 2rem;
+    border-radius: 10px;
+    color: @font;
+}
